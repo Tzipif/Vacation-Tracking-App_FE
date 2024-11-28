@@ -1,0 +1,13 @@
+#upload-image {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vocation-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

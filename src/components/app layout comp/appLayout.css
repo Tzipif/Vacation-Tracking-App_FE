@@ -1,0 +1,62 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#header{
+    padding: 2% 5% 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgba(47, 79, 79, 0.167);
+    height: 12vh;
+}
+
+#header span {
+    cursor: default;
+}
+
+#body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 0px;
+    margin: 5px;
+}
+
+#high-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3% 10% 1%;
+}
+
+#high-body > .admin-header-buttons {
+    margin-left: auto;
+}
+
+#footer {
+    padding: 1% 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    background-color: #99b3b3;
+    height: 7vh;
+    width: 100%;
+}
+
+#buttons-div {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px
+}
