@@ -65,12 +65,12 @@ const ShowFollowing = (props: Props) => {
         <div style={{
             display: 'flex',
             alignItems: 'center',
-            width: '132px',
+            minWidth: '120px',
             backgroundColor: bgColor,
             borderRadius: '250px',
             boxShadow: '0px 2px 5px #606060',
             margin: '25px 20px',
-            position: 'absolute'
+            position: 'absolute',
         }}>
             <Tooltip title="like">
                 <Checkbox
@@ -80,7 +80,7 @@ const ShowFollowing = (props: Props) => {
                     onChange={handleFollowing}
                 />
             </Tooltip>
-            <Typography variant="body1" sx={{ color: 'text.secondary' }}>
+            <Typography variant="body1" sx={{ color: 'text.secondary', marginRight: '12px' }}>
                 following {followingNum}
             </Typography>
         </div>

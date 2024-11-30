@@ -61,11 +61,11 @@ const VocationCard = (props: Props) => {
             </Typography>
 
             <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '50%' }}>
-                <Typography gutterBottom variant="h5" component="div" >
+                <Typography gutterBottom variant="h5">
                     {pv.destination}
                 </Typography>
 
-                <Typography variant="body2" sx={{ color: 'text.secondary', }}>
+                <Typography variant="body2" sx={{ color: 'text.secondary', maxHeight: '80px', overflowY: 'auto'}}>
                     {pv.description}
                 </Typography>
 
